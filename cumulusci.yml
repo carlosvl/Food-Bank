@@ -2,7 +2,7 @@ minimum_cumulusci_version: '3.8.0'
 project:
     name: Food-Bank
     package:
-        name:  Food-Bank
+        name: Food-Bank
         namespace: villalpando
         api_version: '48.0'
     source_format: sfdx

@@ -7,15 +7,15 @@ CREATE TABLE "Account" (
 );
 INSERT INTO "Account" VALUES('0015400000ToxysAAB','Food Bank WI','');
 INSERT INTO "Account" VALUES('0015400000ToxyYAAR','Food Bank MN','');
-CREATE TABLE "Delivery_Items__c" (
+CREATE TABLE "Delivery_Item__c" (
 	sf_id VARCHAR(255) NOT NULL, 
 	"Food_Storage__c" VARCHAR(255), 
 	delivery__c VARCHAR(255), 
 	PRIMARY KEY (sf_id)
 );
-INSERT INTO "Delivery_Items__c" VALUES('a0054000003gse4AAA','Refrigerated','a0154000004mLNnAAM');
-INSERT INTO "Delivery_Items__c" VALUES('a0054000003gse5AAA','Refrigerated','a0154000004mLNyAAM');
-INSERT INTO "Delivery_Items__c" VALUES('a0054000003gsdzAAA','Non-refrigerated','a0154000004mLNnAAM');
+INSERT INTO "Delivery_Item__c" VALUES('a0054000003gse4AAA','Refrigerated','a0154000004mLNnAAM');
+INSERT INTO "Delivery_Item__c" VALUES('a0054000003gse5AAA','Refrigerated','a0154000004mLNyAAM');
+INSERT INTO "Delivery_Item__c" VALUES('a0054000003gsdzAAA','Non-refrigerated','a0154000004mLNnAAM');
 CREATE TABLE "Delivery__c" (
 	sf_id VARCHAR(255) NOT NULL, 
 	"Scheduled_Date__c" VARCHAR(255), 

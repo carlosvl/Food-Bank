@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <label>Delivery</label>
     <referenceTo>Delivery__c</referenceTo>
-    <relationshipLabel>Delivery Items</relationshipLabel>
+    <relationshipLabel>Delivery Items!</relationshipLabel>
     <relationshipName>Delivery_Items</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>

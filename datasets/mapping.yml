@@ -18,9 +18,9 @@ Insert Delivery__c:
   lookups:
     Supplier__c:
       table: Account
-Insert Delivery_Items__c:
-  sf_object: Delivery_Items__c
-  table: Delivery_Items__c
+Insert Delivery_Item__c:
+  sf_object: Delivery_Item__c
+  table: Delivery_Item__c
   fields:
     Id: sf_id
     Food_Storage__c: Food_Storage__c
